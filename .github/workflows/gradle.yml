@@ -3,6 +3,9 @@ name: Java CI
 on:
   workflow_dispatch:
     inputs:
+      BASE_URL:
+        description: Base Url
+        required: true
       ALLURE_JOB_RUN_ID:
         description: "Inner parameter for Allure TestOps"
         required: false
