@@ -29,7 +29,7 @@ jobs:
         with:
           allure-endpoint: https://demo.qatools.cloud
           allure-token: ${{ secrets.ALLURE_TOKEN }}
-          allure-project-id: 56
+          allure-project-id: 57
       - name: Run Tests
         run: allurectl watch -- ./gradlew clean test
         env:
