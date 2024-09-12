@@ -5,6 +5,7 @@ on:
     inputs:
       BASE_URL:
         description: Base Url
+        default: "https://testing.github.com"
         required: true
       ALLURE_JOB_RUN_ID:
         description: "Inner parameter for Allure TestOps"
